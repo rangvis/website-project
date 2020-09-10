@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>列表页</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/puplic.css">
+    <link rel="stylesheet" href="../css/lists.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1867197_evfgtjnt76h.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>@@include('./template/_header.html')</header>
+
+    <!-- banner 图 -->
+    <div style="height: 105px;"></div>
+    <div class="sl_wrapper">
+        <div class="wrapper">
+            <div class="mob_banner">
+                <a href="https://z.gionee.com/details-pc/s11/index.html" target="_blank"><img src="https://imggn.gionee.com/s/201803/05_1520212767352.jpg" init_src="https://imggn.gionee.com/s/201803/05_1520212767352.jpg" width="1190" height="350"></a>
+            </div>
+            <!-- 手机分类 -->
+            <form class="partssltbar" id="search_form" name="search_form" action="/goods/list" method="get">
+                <dl class="parts_selc clr">
+                    <dt>手机分类：</dt>
+                    <dd>
+                        <div class="checkboxs">
+                            <a href="javascript:void(0);" target="_self" tag_sel="type0" tag_data="" class="select"><input type="checkbox" class="ckbx"><em>全部</em></a>
+                            <a href="javascript:void(0);" target="_self" tag_sel="type" tag_data="智能手机"><input type="checkbox" class="ckbx"><em>智能手机</em></a>
+                            <a href="javascript:void(0);" target="_self" tag_sel="type" tag_data="功能手机"><input type="checkbox" class="ckbx"><em>功能手机</em></a>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="parts_selc clr">
+                    <dt>手机外观：</dt>
+                    <dd>
+                        <div class="checkboxs">
+                            <a href="javascript:void(0);" target="_self" tag_sel="face0" tag_data="" class="select"><input type="checkbox" class="ckbx"><em>全部</em></a>
+                            <a href="javascript:void(0);" target="_self" tag_sel="face" tag_data="触屏"><input type="checkbox" class="ckbx"><em>触屏</em></a>
+                            <a href="javascript:void(0);" target="_self" tag_sel="face" tag_data="直板"><input type="checkbox" class="ckbx"><em>直板</em></a>
+                            <a href="javascript:void(0);" target="_self" tag_sel="face" tag_data="翻盖"><input type="checkbox" class="ckbx"><em>翻盖</em></a>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="parts_selc clr">
+                    <dt>手机系列：</dt>
+                    <dd>
+                        <div class="checkboxs">
+                            <a href="javascript:void(0);" target="_self" tag_sel="id0" tag_data="25" class="select"><input type="checkbox" class="ckbx"><em>全部</em></a>
+                            <a href="javascript:void(0);" target="_self" tag_sel="id" tag_data="96"><input type="checkbox" class="ckbx"><em>M系列</em></a>
+                            <a href="javascript:void(0);" target="_self" tag_sel="id" tag_data="87"><input type="checkbox" class="ckbx"><em>S系列</em></a>
+                            <a href="javascript:void(0);" target="_self" tag_sel="id" tag_data="5"><input type="checkbox" class="ckbx"><em>天鉴系列</em></a>
+                            <a href="javascript:void(0);" target="_self" tag_sel="id" tag_data="100"><input type="checkbox" class="ckbx"><em>F系列</em></a>
+                            <a href="javascript:void(0);" target="_self" tag_sel="id" tag_data="103"><input type="checkbox" class="ckbx"><em>金钢系列</em></a>
+                            <a href="javascript:void(0);" target="_self" tag_sel="id" tag_data="98"><input type="checkbox" class="ckbx"><em>其他机型</em></a>
+                        </div>
+                        <span class="more fn_hidden" tag_sel="more1">更多&gt;&gt;</span>
+                    </dd>
+                </dl>
+                <dl class="parts_selc clr">
+                    <dt>排序方式：</dt>
+                    <dd>
+                        <div class="checkboxs">
+                            <a href="javascript:void(0);" target="_self" class="quee" tag_sel="order" tag_data="3"><span><i class="order_up"></i>上架时间</span></a>
+                            <a href="javascript:void(0);" target="_self" class="quee" tag_sel="order" tag_data="6"><span><i class="order_up"></i>价格</span></a>
+                            <a href="javascript:void(0);" target="_self" class="quee" tag_sel="order" tag_data="1"><span><i class="order_down"></i>销量</span></a>
+                        </div>
+                        <div class="onsale">
+                            <a href="javascript:void(0);" target="_self" tag_sel="sale" tag_data=""><input type="checkbox" class="ckbx"><em>显示在售商品</em></a>
+                        </div>
+                    </dd>
+                </dl>
+            </form>
+
+            <!-- 手机列表页 -->
+            <div class="mob_cont clr">
+                <div class="mob_listCon c">
+                    <ul id="JmobileList" class="c">
+                        <!-- 存放数据渲染的数据 -->
+
+
+                    </ul>
+                    <div class="list_page">
+                        <form name="selectPageForm" action="/goods.php" method="get">
+                            <div id="pager" class="ui_page">
+                                <span class="ui_page_curr">1</span>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                                <a href="#">4</a>
+                                <a href="#">5</a>
+                                <a class="ui_page_next" href="#">下一页</a>
+                                <a class="ui_page_last" href="#">末页</a>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 右边侧栏 -->
+    <ui_service>@@include('./template/ui_service.html')</ui_service>
+    <!-- footer -->
+    <footer>@@include('./template/_footer.html')</footer>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="../js/lists.js"></script>
+</body>
+
+</html>

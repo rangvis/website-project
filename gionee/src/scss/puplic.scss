@@ -1,0 +1,606 @@
+// header
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%
+}
+
+.header {
+    height: 105px;
+    width: 100%;
+    position: fixed;
+    display: block;
+    background: white;
+    .header-con {
+        width: 1200px;
+        height: 104px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+.logo {
+    width: 200px;
+    height: 51px;
+    overflow: hidden;
+    display: block;
+    padding-top: 25px;
+    float: left;
+}
+
+.hd_main {
+    width: 850px;
+    height: 104px;
+    background: #fff;
+    float: right;
+}
+
+.g_quickMenu {
+    width: 850px;
+    text-align: right;
+    color: #9f9f9f;
+    padding-top: 10px;
+    line-height: 20px;
+    margin-bottom: 23px;
+    position: relative;
+    z-index: 101;
+}
+
+.login {
+    margin: 0 5px;
+}
+
+.reg {
+    color: #ddd;
+    font-size: 12px;
+    margin: 0 5px;
+}
+
+.shopNum {
+    text-decoration: none;
+    color: red;
+}
+
+.g_search {
+    width: 165px;
+    padding-left: 3px;
+    height: 28px;
+    line-height: 28px;
+    border: #ddd 1px solid;
+    position: relative;
+    z-index: 1;
+}
+
+.g_search input.btn_so {
+    width: 25px;
+    height: 28px;
+    display: block;
+    background-position: -236px 2px;
+    border: 0;
+    text-indent: -9999em;
+    cursor: pointer;
+    outline: 0;
+    float: right;
+}
+
+.g_search input.txt {
+    width: 138px;
+    height: 28px;
+    line-height: 28px;
+    border: 0;
+    font-family: "Microsoft YaHei";
+    color: #ccc;
+}
+
+.c {
+    display: block;
+}
+
+.g_main_nav {
+    width: 680px;
+    float: right;
+    position: relative;
+    z-index: 1;
+    .g_main_nav li {
+        width: 84px;
+        float: left;
+    }
+    .mNav_item {
+        display: inline-block;
+        font-size: 16px;
+        color: #000;
+        line-height: 30px;
+        // width: 84px;
+        text-align: center;
+        // height: 55px;
+        padding-bottom: 23px;
+        a {
+            padding: 0 26px;
+        }
+    }
+}
+
+.littleLine {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+// .mobile {
+//     padding-bottom: 22px;
+// }
+.menu-box {
+    // width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    // display: block;
+    position: absolute;
+    z-index: 89;
+    top: 50px;
+    left: -360px;
+    background-color: white;
+    opacity: 0.98;
+    // border: 1px solid red;
+    // filter: alpha(opacity=98);
+}
+
+.mobile:hover .menu-box {
+    display: block;
+}
+
+.menu-box .menu-li {
+    margin: 0 auto;
+    width: 1200px;
+    height: 200px;
+    text-align: center;
+}
+
+.menu-box .menu-li .menu-ul {
+    width: 200px;
+    float: left;
+    height: 200px;
+    text-align: center;
+}
+
+.menu-li li {
+    color: #ccc;
+}
+
+// 右边侧栏
+.ui_service_item {
+    position: relative;
+    display: block;
+    width: 58px;
+    height: 68px;
+    border: solid 1px #ddd;
+    background: #fff;
+    margin-top: -1px;
+    .ui_service_lbl {
+        position: relative;
+        z-index: 2;
+        display: block;
+        width: 58px;
+        height: 28px;
+        padding-top: 40px;
+        overflow: hidden;
+        background: #fff;
+        line-height: 25px;
+        font-size: 12px;
+        text-align: center;
+    }
+    span {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+        top: 10px;
+        left: 14px;
+        cursor: pointer;
+    }
+    .online span {
+        background: url(https://shop.gionee.com/static/web201310/ui_service.png?d=1127) no-repeat 0 0;
+        background-position: 0 0;
+    }
+    .help span {
+        background: url(https://shop.gionee.com/static/web201310/ui_service.png?d=1127) no-repeat 0 0;
+        background-position: -30px 0;
+    }
+    .backTop span {
+        background: url(https://shop.gionee.com/static/web201310/ui_service.png?d=1127) no-repeat 0 0;
+        background-position: -60px 0;
+    }
+}
+
+// footer 尾部
+.g_ft {
+    padding-top: 40px
+}
+
+.g_ts {
+    // border-bottom: #eaeaea 1px solid;
+    width: 100%;
+    padding-bottom: 40px;
+    height: 47px;
+    background: #fff
+}
+
+.g_ts li {
+    float: left;
+    width: 24.5%;
+    height: 47px
+}
+
+.g_ts li em {
+    font-style: normal;
+    float: left
+}
+
+.g_ts i,
+.g_ts li a {
+    display: block;
+    float: left;
+    line-height: 20px;
+    font-size: 16px;
+    color: #777
+}
+
+.g_ts li a {
+    width: 140px;
+    height: 47px
+}
+
+.g_ts li a:hover {
+    color: #ef4222
+}
+
+.g_ts i {
+    width: 46px;
+    height: 46px;
+    background-position: 0 -60px;
+    margin-right: 10px
+}
+
+.g_ts i.c_change {
+    background-position: -46px -60px
+}
+
+.g_ts i.c_freesheep {
+    background-position: -92px -60px
+}
+
+.g_ts i.c_svspoint {
+    background-position: -138px -60px
+}
+
+.g_ft_guide {
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.g_ft_guide dl {
+    float: left;
+    width: 18%;
+    line-height: 33px;
+    color: #777
+}
+
+.g_ft_guide dt {
+    font-size: 16px
+}
+
+.g_ft_guide dd {
+    font-size: 12px
+}
+
+.g_ft_guide dd a {
+    color: #777
+}
+
+.g_ft_guide dd a:hover {
+    color: #ef4222
+}
+
+.g_ft_guide .g_gn_wx {
+    width: 105px;
+    float: right;
+    text-align: center;
+    line-height: 30px;
+    color: #999
+}
+
+.g_ft_guide .g_gn_wx i {
+    display: block;
+    border: #ccc 3px solid;
+    background-position: -279px 0;
+    width: 98px;
+    height: 98px
+}
+
+.g_ft_coprt {
+    padding: 20px 0
+}
+
+.g_ft_coprt .g_ft_coplink {
+    margin-bottom: 8px
+}
+
+.g_ft_coprt {
+    background: #333;
+    text-align: left;
+    color: #999
+}
+
+.g_ft_coprt a {
+    color: #999
+}
+
+.g_ft_coprt a:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.g_ft_coprt .copyright {
+    margin-bottom: 8px
+}
+
+.g_ft_coprt .copyright a {
+    margin-right: 8px
+}
+
+.g_ft_coprt .link_item {
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    padding-left: 11px;
+    line-height: 23px;
+    height: 23px;
+    overflow: visible
+}
+
+.g_ft_coprt .link_first {
+    padding-left: 0
+}
+
+.g_ft_coprt .link_item b {
+    position: absolute;
+    width: 1px;
+    height: 11px;
+    overflow: hidden;
+    background: #999;
+    left: 0;
+    top: 6px
+}
+
+@keyframes largeput {
+    0% {
+        width: 165px
+    }
+    50% {
+        width: 210px
+    }
+    100% {
+        width: 280px
+    }
+}
+
+.cart_hd em {
+    font-style: normal
+}
+
+.g_ft .link_company {
+    padding: 1px 0 1px 5px;
+    height: 17px;
+    line-height: 17px;
+    margin-right: 4px;
+    overflow: visible;
+    width: 100px
+}
+
+.g_ft .link_company p {
+    padding: 3px 16px 3px 6px;
+    cursor: default
+}
+
+.g_ft .link_company p span {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    top: 9px;
+    right: 6px;
+    border-top: solid 4px #999;
+    border-left: solid 4px #474747;
+    border-right: solid 4px #474747;
+    -moz-transition: -moz-transform .2s ease-in;
+    -webkit-transition: -webkit-transform .2s ease-in;
+    -o-transition: -o-transform .2s ease-in;
+    transition: transform .2s ease-in;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%
+}
+
+.g_ft .link_company .ui_borderCir {
+    position: absolute;
+    left: 5px;
+    top: 0;
+    width: 98px
+}
+
+.g_ft .link_company .ui_borderCir_t,
+.g_ft .link_company .ui_borderCir_b {
+    display: none
+}
+
+.g_ft .link_company .ui_borderCir_c {
+    background: 0;
+    padding: 0 1px;
+    border: 0
+}
+
+.g_ft .link_company ul {
+    padding: 3px 6px;
+    line-height: 21px;
+    display: none
+}
+
+.g_ft .link_company_hover p {
+    color: #999
+}
+
+.g_ft .link_company_hover p span {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    border-color: #474747;
+    border-top-color: #fff;
+    border-top: none\9;
+    border-bottom: solid 4px #47474799
+}
+
+.g_ft .link_company_hover .ui_borderCir_t,
+.g_ft .link_company_hover .ui_borderCir_b {
+    display: block
+}
+
+.g_ft .link_company_hover .ui_borderCir_c {
+    border-left: solid 1px #474747;
+    border-right: solid 1px #474747;
+    background: #474747;
+    padding: 0;
+    border-radius: 3px
+}
+
+.g_ft .link_company_hover ul {
+    display: block
+}
+
+.g_ft .lang {
+    position: relative;
+    float: right;
+    width: 102px;
+    height: 24px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-right: 10px;
+    background: #474747
+}
+
+.g_ft .lang .icon {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    background-position: -463px -66px;
+    bottom: 7px;
+    right: 6px
+}
+
+.g_ft .lang .ui_borderCir {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 96px;
+    zoom: 1
+}
+
+.g_ft .lang .ui_borderCir_t,
+.g_ft .lang .ui_borderCir_b {
+    display: none
+}
+
+.g_ft .lang .ui_borderCir_c {
+    padding: 0 0 0 6px;
+    background: 0;
+    border: 0;
+    line-height: 22px;
+    line-height: 21px\9;
+    *line-height: 24px
+}
+
+.g_ft .lang_hover {
+    overflow: visible
+}
+
+.g_ft .lang_hover .icon {
+    background-position: -453px -66px
+}
+
+.g_ft .lang_hover .ui_borderCir {
+    padding: 0;
+    width: 102px
+}
+
+.g_ft .lang_hover .ui_borderCir_t,
+.g_ft .lang_hover .ui_borderCir_b {
+    display: block
+}
+
+.g_ft .lang_hover .ui_borderCir_c {
+    background: #474747;
+    border-radius: 3px
+}
+
+.g_ft_guide dd a.sina,
+.g_ft_guide dd a.tencent,
+.g_ft_guide dd a.qzone {
+    padding-left: 25px;
+    line-height: 25px;
+    height: 25px;
+    display: inline-block;
+    *display: inline;
+    position: relative;
+    background: 0
+}
+
+.g_ft_guide dd a.sina b,
+.g_ft_guide dd a.tencent b,
+.g_ft_guide dd a.qzone b {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    top: 2px;
+    _top: -2px;
+    left: 0;
+    background-position: -379px -68px
+}
+
+.g_ft_guide dd a.sina:hover b {
+    background-position: -379px -93px
+}
+
+.g_ft_guide dd a.tencent b {
+    background-position: -406px -68px
+}
+
+.g_ft_guide dd a.tencent:hover b {
+    background-position: -406px -93px
+}
+
+.g_ft_guide dd a.qzone b {
+    background-position: -430px -68px
+}
+
+.g_ft_guide dd a.qzone:hover b {
+    background-position: -430px -93px
+}
+
+// 模糊搜索功能
+.search-list {
+    position: absolute;
+    background: rgba($color: #000000, $alpha: 0.3);
+    width: 170px;
+    top: 30px;
+    left: 0;
+    li {
+        list-style-type: none;
+        line-height: 40px;
+        color: #333;
+    }
+}

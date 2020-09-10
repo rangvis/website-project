@@ -1,0 +1,240 @@
+.header {
+    position: static;
+}
+
+.sl_wapper {
+    width: 100%;
+    height: 543px;
+    padding-top: 52px;
+    background: #f1f1f1;
+    .wrapper {
+        width: 1190px;
+        margin: 0 auto;
+        // 右内容
+        .vi_sumary {
+            position: relative;
+            width: 750px;
+            float: right;
+            padding-bottom: 110px;
+            min-height: 375px;
+            .name {
+                font-weight: normal;
+                line-height: 32px;
+                font-size: 24px;
+                padding: 0 0 5px;
+            }
+            .slogan {
+                padding-bottom: 8px;
+                margin-bottom: 0;
+                color: #999;
+                font-size: 14px;
+                line-height: 25px;
+                min-height: 42px;
+                border-bottom: #d0d0d0 1px dotted;
+            }
+            .w3_goods_infos {
+                border-bottom: #d0d0d0 1px dotted;
+                padding: 20px 0;
+                width: 100%;
+                margin-bottom: 22px;
+                em {
+                    font-style: normal;
+                }
+                .price {
+                    margin-bottom: 0;
+                    line-height: 30px;
+                    height: 30px;
+                    .w3_mr {
+                        margin-right: 15px;
+                    }
+                    .price_sale {
+                        font-size: 24px;
+                        color: #ef4222;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .vi_attribute {
+                margin-bottom: 10px;
+                overflow: hidden;
+                .lbl {
+                    width: 70px;
+                    font-size: 12px;
+                    overflow: hidden;
+                    margin-right: 4px;
+                    line-height: 24px;
+                    text-align: justify;
+                    float: left;
+                    .ue_jstfy {
+                        float: left;
+                        width: 48px;
+                        white-space: nowrap;
+                        overflow: hidden;
+                    }
+                }
+                em {
+                    font-style: normal;
+                    float: left;
+                }
+                .cont {
+                    float: left;
+                    width: 420px;
+                    overflow: hidden;
+                    white-space: normal;
+                    .dis {
+                        border-color: #eee;
+                        cursor: pointer;
+                        color: #999;
+                        display: inline-block;
+                        height: 20px;
+                        min-width: 60px;
+                        padding: 1px;
+                        border: solid 1px #ddd;
+                        overflow: hidden;
+                        text-align: center;
+                        background: #fff;
+                        font-size: 12px;
+                        line-height: 20px;
+                        margin: 0 5px 4px 0;
+                        vertical-align: middle;
+                    }
+                    .vi_color {
+                        width: 40px;
+                        height: 50px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+            .vi_quantity {
+                overflow: hidden;
+                .lbl {
+                    float: left;
+                    width: 70px;
+                    font-size: 12px;
+                    overflow: hidden;
+                    margin-right: 4px;
+                    line-height: 24px;
+                    text-align: justify;
+                    .ue_jstfy {
+                        float: left;
+                        width: 48px;
+                        white-space: nowrap;
+                        overflow: hidden;
+                    }
+                }
+                .cont {
+                    float: left;
+                    width: 152px;
+                    overflow: hidden;
+                    .ui_quantity_redu {
+                        cursor: default;
+                        float: left;
+                        width: 24px;
+                        height: 24px;
+                        overflow: hidden;
+                        margin-right: 2px;
+                        background: url(https://shop.gionee.com/static/images/ui/ui_quantity.png) no-repeat 0 0;
+                        cursor: pointer;
+                    }
+                }
+                .ui_quantity_num {
+                    float: left;
+                    width: 48px;
+                    height: 22px;
+                    border: solid 1px #ddd;
+                    overflow: hidden;
+                    margin-right: 2px;
+                    background: #fff;
+                    text-align: center;
+                    line-height: 22px;
+                }
+                .ui_quantity_add {
+                    float: left;
+                    width: 24px;
+                    height: 24px;
+                    overflow: hidden;
+                    background: url(https://shop.gionee.com/static/images/ui/ui_quantity.png) no-repeat 0 0;
+                    cursor: pointer;
+                    background-position: -24px 0;
+                }
+            }
+        }
+        //
+        //
+        // 左图
+        .container {
+            width: 350px;
+            height: 350px;
+            border: #ddd 1px solid;
+            position: relative;
+            // float: left;
+            .small {
+                height: 350px;
+                width: 350px;
+                position: relative;
+                border: 1px solid #ddd;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+                .wrap {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    z-index: 999;
+                    // background: rgba(0, 0, 0, 0.3);
+                }
+                .grayBox {
+                    display: none;
+                    width: 100px;
+                    height: 100px;
+                    background-size: 350px 350px;
+                    background-position: 0 0;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+            }
+            .choice-btn {
+                position: absolute;
+                width: 100%;
+                padding-top: 5px;
+                border: 1px solid #ddd;
+                .item {
+                    float: left;
+                    list-style: none;
+                    width: 50px;
+                    height: 50px;
+                    margin: 4px;
+                    margin-left: 8px;
+                    border: 1px solid #fff;
+                }
+            }
+        }
+    }
+}
+
+.big {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 450px;
+    top: -350px;
+    border: 1px solid #f10;
+    display: none;
+    overflow: hidden;
+    background: white;
+    img {
+        position: absolute;
+        width: 1400px;
+        height: 1400px;
+    }
+}
+
+.add_cart {
+    margin-top: 20px;
+}

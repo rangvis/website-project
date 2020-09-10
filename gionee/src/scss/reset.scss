@@ -1,0 +1,151 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+    margin: 0;
+    padding: 0
+}
+
+ul,
+lu {
+    list-style: none
+}
+
+a,
+img {
+    border: 0
+}
+
+body {
+    font: 12px/1.5 Tahoma, "Hiragino Sans GB", "Microsoft YaHei", arial, simsun, sans-serif;
+    background: #fff;
+    color: #000;
+    font-family: "Microsoft YaHei"
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+    color: #000
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ef4222
+}
+
+a:focus {
+    outline: 0
+}
+
+.none {
+    display: none
+}
+
+.ht {
+    overflow: hidden;
+    text-indent: -9999px
+}
+
+.c:after {
+    content: ".";
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.c {
+    display: inline-table
+}
+
+
+/*\*/
+
+* html .c {
+    height: 1%
+}
+
+.c {
+    display: block
+}
+
+
+/**/
+
+*+html .c {
+    min-height: 1%
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.tin {
+    text-indent: -9999em;
+    overflow: hidden
+}
+
+.hide,
+.fn_hidden {
+    display: none
+}
+
+.porelat {
+    position: relative
+}
+
+.wrapper {
+    width: 1190px;
+    margin: 0 auto
+}
+
+html body {
+    overflow: auto
+}
+
+.g_logo,
+.btn_so,
+.ui_slide_opt,
+.ui_slide_opt_curr,
+.m_midtags li .menutag,
+.arrow_more .com_arrow_b,
+.g_ts i,
+.g_ft_guide .g_gn_wx i,
+.g_ft .lang .icon,
+.g_ft .lang_hover .icon,
+.g_ft_guide dd a.sina b,
+.g_ft_guide dd a.tencent b,
+.g_ft_guide dd a.qzone b,
+.loz,
+.comm_arrow_lt,
+.comm_arrow_rt,
+.icon_new,
+.icon_hot,
+i.i_con_arort,
+i.i_con_arwt,
+.g_quickMenu .cart_hd b {
+    background: url(https://shop.gionee.com/static/web201310/spirite.png)
+}

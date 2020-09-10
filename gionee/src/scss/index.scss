@@ -1,0 +1,261 @@
+// banner图
+.swiper-container {
+    width: 100%;
+    height: 640px;
+    .swiper-slide {
+        width: 100%;
+        height: 640px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+//明星产品
+.commom {
+    width: 1196px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.common-title {
+    padding: 40px 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #000;
+    text-align: center;
+}
+
+.nopadding a {
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.starproduct .sp-list .hr-des {
+    position: absolute;
+    top: 41px;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    .hr-title {
+        padding-left: 270px;
+        font-size: 26px;
+        padding-bottom: 10px;
+    }
+    .hr-detail {
+        font-size: 16px;
+        padding-left: 215px;
+        height: 23px;
+        color: #fdf7f9;
+    }
+}
+
+.starproduct .sp-list li {
+    float: left;
+    margin-right: 8px;
+}
+
+// 热卖推荐
+.hotrecommand {
+    width: 100%;
+    height: 912px;
+    background: #e5e5e5;
+    display: block;
+}
+
+.commom-more {
+    width: 1196px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.more-title {
+    padding: 40px 0 0;
+    font-size: 30px;
+    color: #000;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.hr-more {
+    text-align: right;
+    font-size: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.hr-left {
+    float: left;
+    width: 26%;
+    overflow: hidden;
+    height: 785px;
+}
+
+.hotrecommand .hr-left a {
+    display: block;
+    margin-right: 5px;
+    margin-bottom: -4px;
+    position: relative;
+}
+
+.hr-left :hover img {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
+    transform: translateY(-2px);
+}
+
+.hotrecommand .hr-right {
+    float: left;
+    width: 74%;
+}
+
+.hotrecommand .hr-right li {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 290px;
+    height: 390px;
+    background-color: #fff;
+    -webkit-transition: all ease-in .3s;
+    transition: all ease-in .3s;
+     :hover .before {
+        // 当鼠标划过时图片往右移动40%
+        transform: translate(40%, 0);
+    }
+     :hover .after {
+        // 当鼠标划过时图片往左移动40%
+        transform: translate(-40%, 0);
+    }
+}
+
+.hotrecommand .hr-right a {
+    display: block;
+    margin-bottom: -4px;
+    position: relative;
+}
+
+.hotrecommand .hr-right .hr-phoneimg {
+    width: 120px;
+    height: 240px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.hotrecommand .hr-right img {
+    width: 120px;
+    height: 240px;
+    transition: transform .8s .1s;
+}
+
+.hotrecommand .hr-right .before {
+    position: absolute;
+    top: 23px;
+    left: 3px;
+}
+
+.hotrecommand .hr-right .after {
+    position: absolute;
+    top: 23px;
+    left: 3px;
+}
+
+.hotrecommand .hr-right .hr-des {
+    position: absolute;
+    top: 278px;
+    width: 100%;
+    text-align: center;
+    .hr-title {
+        color: #0f0e0e;
+        font-size: 16px;
+    }
+    .hr-detail {
+        color: #9E9E9E;
+        font-size: 14px;
+        padding-top: 3px;
+    }
+    .hr-price {
+        color: #fe6a00;
+        font-size: 24px;
+        padding-top: 12px;
+    }
+}
+
+// 精美配件
+.exquisiteaccessories {
+    width: 100%;
+    height: 900px;
+    background: #e5e5e5;
+    .eas {
+        padding-bottom: 60px;
+    }
+    .eas :hover img {
+        box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
+        transform: translateY(-2px);
+    }
+}
+
+.commom-more {
+    width: 1196px;
+    margin: 0 auto;
+    text-align: right;
+    .more-title {
+        padding: 40px 0 0;
+        font-size: 30px;
+        letter-spacing: 1px;
+        color: #000;
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+        outline: 0;
+        color: #000;
+    }
+    .more {
+        text-align: right;
+        font-size: 15px;
+        padding-bottom: 15px;
+        display: inline-block;
+    }
+}
+
+.exquisiteaccessories .eas li {
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 16px;
+    width: 386px;
+    height: 343px;
+    transition: all ease-in .3s;
+    a {
+        display: block;
+        margin-bottom: -4px;
+        position: relative;
+        .hr-des {
+            position: absolute;
+            top: 240px;
+            width: 100%;
+            text-align: center;
+            .hr-title {
+                color: #0f0e0e;
+                font-size: 16px;
+            }
+            .hr-detail {
+                color: #9E9E9E;
+                font-size: 14px;
+                padding-top: 3px;
+            }
+            .hr-price {
+                color: #f06261;
+                font-size: 24px;
+                padding-top: 2px;
+            }
+        }
+    }
+}
+
+// 品牌动态
+.blandnews {
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 20px;
+}

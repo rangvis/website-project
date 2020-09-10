@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>列表详情页</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/puplic.css">
+    <link rel="stylesheet" href="../css/details.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header><div class="header">
+    <!-- header 版心 -->
+    <div class="header-con">
+        <!-- logo -->
+        <div class="logo">
+            <a href="www.gehttps://www.gionee.com/index.shtml" target="_self"> <img src="../images/g_logo_03.jpg" alt=""></a>
+        </div>
+        <!-- header_main -->
+        <div class="hd_main">
+            <div class="g_quickMenu fr" id="JquickMenu">
+                <span class="loginReg" id="JloginReg">
+                    <a href="./login.html" target="_self" hidefocus="true" class="login"
+                        style="color: #ef4222;">amigo账号登录</a>
+                    <span class="line">|</span>
+                <a href="./login.html" target="_self" hidefocus="true" class="reg">原账号登录</a><b></b>
+                <span class="line">|</span>
+                <a href="./login.html" target="_self" hidefocus="true" class="reg">注册</a><b></b>
+                </span>
+                <span class="cart" id="Jcart">
+                    <span class="iconfont icon-gouwuche"><a href="./cart.html" hidefocus="true" class="reg">购物车（<em class="shopNum" id="JcartNum">0</em><b></b>）</a><i class="whitespace"></i></span>
+                </span>
+            </div>
+            <!-- search 搜索框 -->
+            <div class="g_search fr">
+                <form action="#">
+                    <input type="text" id="search_nr" class="txt" value="">
+                    <input type="submit" class="btn_so">
+                    <ul class="search-list">
+                        <!-- <li>你好</li>
+                        <li>你好</li>
+                        <li>你好</li> -->
+                    </ul>
+                </form>
+            </div>
+            <ul class="g_main_nav c">
+                <li class="mNav_item home"><a href="./index.html" target="_self" hidefocus="true" class="mNav_title">首页</a></li>
+                <li class="mNav_item mobile"><a href="./lists.html" target="_self" hidefocus="true" class="mNav_title">手机</a>
+                    <div class="menu-box" id="m-sj">
+                        <div class="menu-li">
+                            <div class="menu-ul">
+                                <ul style="WIDTH: 100%">
+                                    <li><span style="width:50px;">&nbsp;</span></li>
+                                    <li><a href="#"><span style="font-weight:bold;">
+                                                <font font="" size="3px" color="#777777">最新 &gt;</font>
+                                            </span></a></li>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td style="width:100%;height:10px;font-size:14px;border:0">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <li><a class="hotphone" href="#">金立S11S</a></li>
+                                    <li><a class="hotphone" href="#">金立S11</a></li>
+                                    <li><a class="hotphone" href="#">金立M7 Plus</a></li>
+                                    <li><a class="hotphone" href="#">金立M7</a></li>
+
+                                    <li><a href="#">大金钢2</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-ul">
+                                <ul style="WIDTH: 100%">
+                                    <li><span style="width:50px;">&nbsp;</span></li>
+                                    <li><a href="#"><span
+                                                style="font-weight:bold;">
+                                                <font font="" size="3px" color="#777777">M系列 &gt;</font>
+                                            </span></a></li>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td style="width:100%;height:10px;font-size:14px;border:0">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <li><a href="#">金立M7 Plus</a></li>
+                                    <li><a href="#">金立M7</a></li>
+                                    <li><a href="#">金立M6S Plus</a></li>
+                                    <li><a href="#">金立M2017</a></li>
+
+                                    <li><a href="#">金立M6 Plus</a></li>
+                                    <li><a href="#">金立M6</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-ul">
+                                <ul style="WIDTH: 100%">
+                                    <li><span style="width:50px;">&nbsp;</span></li>
+                                    <li><a href="#"><span
+                                                style="font-weight:bold;">
+                                                <font font="" size="3px" color="#777777">S系列 &gt;</font>
+                                            </span></a></li>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td style="width:100%;height:10px;font-size:14px;border:0">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <li><a href="#">金立S11S</a></li>
+                                    <li><a href="#">金立S11</a></li>
+                                    <li><a href="#">金立S10</a></li>
+                                    <li><a href="#">金立S10B</a></li>
+                                    <li><a href="#">金立S10C</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-ul">
+                                <ul style="WIDTH: 100%">
+                                    <li><span style="width:50px;">&nbsp;</span></li>
+                                    <li><a href="#"><span
+                                                style="font-weight:bold;">
+                                                <font font="" size="3px" color="#777777">金钢系列 &gt;</font>
+                                            </span></a></li>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td style="width:100%;height:10px;font-size:14px;border:0">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <li><a class="hotphone" href="#">金钢3</a></li>
+                                    <li><a href="#">金钢2</a></li>
+                                    <li><a href="#">大金钢2</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-ul">
+                                <ul style="WIDTH: 100%">
+                                    <li><span style="width:50px;">&nbsp;</span></li>
+                                    <li><a href="#"><span
+                                                style="font-weight:bold;">
+                                                <font font="" size="3px" color="#777777">天鉴系列 &gt;</font>
+                                            </span></a></li>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td style="width:100%;height:10px;font-size:14px;border:0">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <li><a href="#">天鉴W909</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-ul">
+                                <ul style="WIDTH: 100%">
+                                    <li><span style="width:50px;">&nbsp;</span></li>
+                                    <li><a href="#"><span
+                                                style="font-weight:bold;">
+                                                <font font="" size="3px" color="#777777">F系列 &gt;</font>
+                                            </span></a></li>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td style="width:100%;height:10px;font-size:14px;border:0">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <li><a class="hotphone" href="#">金立F6</a></li>
+                                    <li><a href="#">金立F109</a></li>
+                                    <li><a href="#">金立F109L</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mNav_item peijian"><a href="#" target="_self" hidefocus="true" class="mNav_title">配件</a></li>
+                <li class="mNav_item service"><a href="#" target="_self" hidefocus="true" class="mNav_title">服务</a></li>
+                <li class="mNav_item download"><a href="#" target="_blank" hidefocus="true" class="mNav_title">下载</a></li>
+                <li class="mNav_item elife"><a href="./login.html" rel="nofollow" target="_blank" hidefocus="true" class="mNav_title">amigoOS</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- 间隔灰色线 -->
+    <div class="littleLine"></div>
+</div></header>
+
+    <div class="sl_wapper">
+
+
+
+    </div>
+
+    <!-- 右边侧栏 -->
+    <ui_service><div class="ui_service" id="Jservice" style="right: 6px; position: fixed; top: 50%; margin-top: -144px;">
+    <div class="ui_service_item"><a href="javascript:void(0);" class="ui_service_lbl online" tag_serv="open" target="_self">在线服务<span></span></a>
+    </div>
+    <div class="ui_service_item"><a href="#" class="ui_service_lbl help " target="_blank">帮助中心<span></span></a></div>
+    <div class="ui_service_item" tag_serv="top"><a href="javascript:void(0)" class="ui_service_lbl backTop" target="_self">返回顶部<span></span></a></div>
+    <div class="ui_service_item" style="height: 80px;text-align:center;"><img src="https://shop.gionee.com/static/web201310/code.png" style="width: 50px;height: 50px;text-align: center;margin-top: 6px;">
+        <p class="shop-gioneewechat" style="margin-top:-2px;">金立关怀</p>
+    </div>
+</div></ui_service>
+    <!-- 底部 -->
+    <footer><div class="g_ft">
+    <div class="g_ts">
+        <ul class="wrapper">
+            <li><a name="b1" href="#" hidefocus="true" target="_blank"><i class="c_dropgos"></i><em>7天<br>退货保障</em></a></li>
+            <li><a href="#" hidefocus="true" target="_blank"><i class="c_change"></i><em>30天<br>换货承诺</em></a></li>
+            <li><a href="#" hidefocus="true" target="_blank"><i class="c_freesheep"></i><em>99元起<br>全场免运费</em></a></li>
+            <li><a href="#" hidefocus="true" target="_blank"><i class="c_svspoint"></i><em>579家<br>售后服务点</em></a></li>
+        </ul>
+    </div>
+    <div class="g_ft_guide wrapper c">
+        <dl>
+            <dt>关于金立</dt>
+            <dd><a href="#" hidefocus="true" target="_blank">企业荣誉</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">金立体验店</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">代理商专区</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">加入金立</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">联系我们</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">供应/服务商需求咨询</a></dd>
+        </dl>
+        <dl>
+            <dt>新闻资讯</dt>
+            <dd><a href="#" hidefocus="true" target="_blank">公司新闻</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">媒体报道</a></dd>
+        </dl>
+        <dl>
+            <dt>购物指南</dt>
+            <dd><a href="#" hidefocus="true" target="_blank">购物流程</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">支付方式</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">配送说明及费用</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">订单管理</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">购买常见问题</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">预置应用公示</a></dd>
+        </dl>
+        <dl>
+            <dt>售后服务</dt>
+            <dd><a href="#" hidefocus="true" target="_blank">售后政策</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">售后服务网点</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">上门维修</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">签收须知</a></dd>
+            <dd><a href="#" hidefocus="true" target="_blank">物流查询</a></dd>
+        </dl>
+        <dl>
+            <dt>关注我们</dt>
+            <dd><a href="#" rel="nofollow" hidefocus="true" target="_blank" class="sina">新浪微博<b></b></a></dd>
+            <dd><a href="#" rel="nofollow" hidefocus="true" target="_blank" class="tencent">腾讯微博<b></b></a></dd>
+            <dd><a href="#" rel="nofollow" hidefocus="true" target="_blank" class="qzone">QQ空间<b></b></a></dd>
+        </dl>
+        <div class="g_gn_wx fr">
+            <i class="ico_gn_weixin"></i>
+            <span>扫一扫关注微信</span>
+        </div>
+    </div>
+    <div class="g_ft_coprt">
+        <div class="wrapper">
+            <ul class="g_ft_coplink c">
+                <li class="link_item link_first">
+                    <a href="#" target="_blank" hidefocus="true">网站地图</a>
+                </li>
+                <li class="link_item link_company" id="Jconpany"><b></b>
+                    <div class="ui_borderCir" style="z-index:2">
+                        <div class="ui_borderCir_t">
+                            <div class="ui_borderCir_tl"></div>
+                            <div class="ui_borderCir_tm"></div>
+                            <div class="ui_borderCir_tr"></div>
+                        </div>
+                        <div class="ui_borderCir_c">
+                            <p>集团下属公司<span></span></p>
+                            <ul style="display: none;">
+                                <li>欧新通信</li>
+                                <li>奥软网络</li>
+                            </ul>
+                        </div>
+                        <div class="ui_borderCir_b">
+                            <div class="ui_borderCir_bl"></div>
+                            <div class="ui_borderCir_bm"></div>
+                            <div class="ui_borderCir_br"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="c">
+                <div class="lang" id="Jlang" style="z-index:3">
+                    <div class="ui_borderCir">
+                        <div class="ui_borderCir_t">
+                            <div class="ui_borderCir_tl"></div>
+                            <div class="ui_borderCir_tm"></div>
+                            <div class="ui_borderCir_tr"></div>
+                        </div>
+                        <div class="ui_borderCir_c">
+                            <ul>
+                                <li><a href="#" target="_blank">Global/English</a></li>
+                                <li><a href="#" target="_self">中国/简体中文</a></li>
+                            </ul>
+                        </div>
+                        <div class="ui_borderCir_b">
+                            <div class="ui_borderCir_bl"></div>
+                            <div class="ui_borderCir_bm"></div>
+                            <div class="ui_borderCir_br"></div>
+                        </div>
+                    </div>
+                    <span class="icon"></span>
+                </div>
+                <p class="copyright" style="position: relative; z-index:1; line-height: 45px;">增值电信业务经营许可证：<a href="https://www.gionee.com/licence3.shtml" target="_blank">粤B2-20120350</a>
+                    <a href="#" target="_blank">粤ICP备05087105号</a>
+                    <a href="#" target="_blank">粤网文[2018]10835-3804号</a>
+                    <a href="#" target="_blank">粤文市审[2012]196号</a>
+                    <span style="white-space: nowrap;">
+                       
+                        <a id="___szfw_logo___" href="#" target="_blank" rel="nofollow"><img src="http://icon.szfw.org/sf.png" border="0" style="opacity: 0.8;"></a>
+                        <script type="text/javascript">(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+                        <script id="ebsgovicon" src="https://szcert.ebs.org.cn/govicons.js?id=a25799fe-b2a1-4c7a-b42a-c0f6d4a73d95&amp;width=33&amp;height=45&amp;type=1" type="text/javascript" charset="utf-8"></script><a href="#" target="_blank"><img src="https://szcert.ebs.org.cn/Images/govIcon.gif" title="深圳市市场监督管理局企业主体身份公示" alt="深圳市市场监督管理局企业主体身份公示" width="33" height="45" border="0" style="border-width:0px;border:hidden; border:none;"></a>
+                    <a href="#" rel="nofollow" target="_blank"><img alt="M6/M6 Plus" src="https://shop.gionee.com/static/web201310/b.png" width="120" height="45" style="vertical-align: middle;">    </a></span>
+                </p>
+                <p class="copyright" style="line-height: 23px;">Copyright © 2013 深圳市金立通信设备有限公司 版权所有 .</p>
+            </div>
+        </div>
+    </div>
+</div></footer>
+
+
+    <script src="../js/data.js"></script>
+    <script src="../js/libs/jquery-3.5.1.js"></script>
+    <script src="../js/details.js"></script>
+</body>
+
+</html>
